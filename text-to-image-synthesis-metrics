@@ -1,0 +1,17 @@
+
+* Inception Score (IS)
+IS computes the Kullback-Leibler (KL) divergence between a conditional distribution and marginal distribution; Higher IS means higher quality of the generated images, and each image clearly belongs to a specific class.
+
+* Frechet Inception Distance (FID)
+FID computes the Frechet distance between the distribution of the synthetic images and real-world images in the feature space of a pre-trained Inception v3 network; contrary to IS, more realistic images have a lower FID. To compute both IS and FID, each model generates 30,000 images from text descriptions randomly selected from the test dataset.
+
+
+
+
+
+
+
+
+
+
+
