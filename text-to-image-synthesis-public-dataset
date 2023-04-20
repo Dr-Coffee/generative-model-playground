@@ -1,8 +1,9 @@
 
 * CUB bird
+CUB dataset contains 11,788 images belonging to 200 bird species; each bird image has ten language descriptions;
 
 * COCO
-
+COCO dataset contains 80k images for training and 40k images for testing; each image in this dataset has five language descriptions.
 
 
 
